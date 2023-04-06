@@ -104,10 +104,10 @@ select {
 }
 
 .check {
-  margin-block-start: 4rem;
+  margin-block-start: 5rem;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-size: 11px;
+  font-size: 12px;
   border: #380d62;
 }
 
