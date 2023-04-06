@@ -1,0 +1,133 @@
+:root {
+  --custom-color: rgb(82, 81, 81);
+  --padding: 20px;
+  --medium-font-size: 1.2em;
+  --big-font-size: 2.5em;
+  --input-padding: 15px 25px;
+  --border-radius: 50px;
+  --margin-top: 20px;
+  --margin-bottom: 20px;
+  --misc-color: #380d62;
+  --border: 1px solid #380d62;
+  --heading-color: black;
+  --heading-padding: 0.5rem 1rem;
+  --margin-top-heading: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--misc-color);
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  width: 375px;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: var(--padding);
+  margin-top: var(--margin-top-heading);
+  background: white;
+}
+
+.heading-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  text-decoration: none;
+  color: var();
+}
+.form-heading {
+  font-size: 25px;
+  text-align: center;
+  color: var(--heading-color);
+  margin-top: var(--margin-top-heading);
+  padding: var(--heading-padding);
+}
+
+.form-text {
+  text-align: center;
+  color: var(--heading-color);
+  padding: var(--heading-padding);
+}
+
+.form {
+  margin: 0 auto;
+  /* padding: var(--padding); */
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: var(--margin-top);
+  margin-bottom: var(--margin-bottom);
+}
+
+.form__group-label {
+  color: var(--custom-color);
+  font-size: var(--medium-font-size);
+  margin-bottom: var(--margin-bottom);
+}
+
+input {
+  padding: var(--input-padding);
+  border-radius: var(--border-radius);
+  border: var(--border);
+}
+
+select {
+  padding: var(--input-padding);
+  border-radius: var(--border-radius);
+  border: var(--border);
+  color: var(--custom-color);
+  background-color: white;
+}
+
+.checkbox {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.check {
+  margin-block-start: 4rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 13.5px;
+  border: #380d62;
+}
+
+a {
+  text-decoration: none;
+  color: #6f2eb0;
+}
+
+.btn-submit {
+  border: none;
+  padding: 14px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  background-color: var(--misc-color);
+  color: white;
+  font-size: var(--medium-font-size);
+}
+
+@media (max-width: 840px) {
+  .form {
+    width: 100%;
+  }
+}
