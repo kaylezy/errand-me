@@ -7,8 +7,8 @@
   --border-radius: 50px;
   --margin-top: 20px;
   --margin-bottom: 20px;
-  --misc-color: #380d62;
-  --border: 1px solid #380d62;
+  --misc-color: #134d83;
+  --border: 1px solid #134d83;
   --heading-color: black;
   --heading-padding: 0.5rem 1rem;
   --margin-top-heading: 2rem;
@@ -104,10 +104,10 @@ select {
 }
 
 .check {
-  margin-block-start: 5rem;
+  margin-block-start: 4rem;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-size: 12px;
+  font-size: 13.5px;
   border: #380d62;
 }
 
@@ -126,6 +126,64 @@ a {
   font-size: var(--medium-font-size);
 }
 
+/* Login page styling */
+.logo{
+    padding-bottom: 10rem;
+}
+
+.forgot-pass{
+    text-align: right;
+}
+
+.login{
+    padding-bottom: 8rem;
+}
+
+.create-acct{
+    text-align: center;
+}
+
+
+/* Forgot Password page styling */
+.forgot{
+    padding-bottom: 5rem;
+}
+
+.go-back{
+    text-align: center;
+    padding: 3rem 0 5rem 0;
+}
+
+.create-acct{
+    text-align: center;
+}
+
+.create{
+    padding-bottom: 8rem;
+}
+
+.signin{
+    border: 1px solid;
+    background: white;
+    color: #134d83;
+}
+
+
+/* Reset password page styling */
+
+.reset{
+    padding-bottom: 5rem;
+}
+
+.reset-pass{
+    padding: 0 0 15rem 0;
+}
+
+
+
+
+
+/* Media Queries */
 @media (max-width: 840px) {
   .form {
     width: 100%;
